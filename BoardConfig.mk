@@ -19,6 +19,9 @@ TARGET_COPY_OUT_VENDOR := vendor
 # System-as-root
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 
+# Compression
+LZ4_RAMDISK_TARGETS := boot,recovery
+
 # A/B Partition Scheme
 AB_OTA_UPDATER := true
 TW_INCLUDE_REPACKTOOLS := true
