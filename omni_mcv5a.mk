@@ -16,3 +16,7 @@ PRODUCT_NAME := omni_mcv5a
 PRODUCT_MODEL := LM-Q610
 PRODUCT_BRAND := lge
 PRODUCT_MANUFACTURER := lge
+
+# Property overrides
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.treble.enabled=true
