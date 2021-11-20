@@ -30,7 +30,7 @@ TW_INCLUDE_REPACKTOOLS := true
 BOARD_USES_RECOVERY_AS_BOOT := true
 
 # Kernel
-BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,32N2 androidboot.hardware=mcv5a androidboot.usbconfigfs=true buildvariant=eng
+BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,32N2 androidboot.hardware=mcv5a androidboot.usbconfigfs=false buildvariant=eng
 BOARD_KERNEL_BASE := 0x40000000
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_RAMDISK_OFFSET := 0x05000000
