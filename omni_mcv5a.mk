@@ -20,5 +20,8 @@ PRODUCT_MANUFACTURER := lge
 # Property overrides
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.treble.enabled=true \
+
+# Define wheter we have UFS/EMMC
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.vendor.mtk_emmc_support=1 \
     ro.vendor.mtk_ufs_booting=0
