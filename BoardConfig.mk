@@ -26,6 +26,9 @@ LZ4_RAMDISK_TARGETS := boot,recovery
 AB_OTA_UPDATER := true
 TW_INCLUDE_REPACKTOOLS := true
 
+# No recovery partition
+BOARD_USES_RECOVERY_AS_BOOT := true
+
 # Kernel
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,32N2 androidboot.hardware=mcv5a androidboot.usbconfigfs=true buildvariant=eng
 BOARD_KERNEL_BASE := 0x40000000
