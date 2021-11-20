@@ -19,4 +19,6 @@ PRODUCT_MANUFACTURER := lge
 
 # Property overrides
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.treble.enabled=true
+    ro.treble.enabled=true \
+    ro.vendor.mtk_emmc_support=1 \
+    ro.vendor.mtk_ufs_booting=0
