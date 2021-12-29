@@ -53,3 +53,4 @@ TW_THEME := portrait_hdpi
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_EXTRA_LANGUAGES := true
 TW_USE_TOOLBOX := true
+TW_IGNORE_MISC_WIPE_DATA := true
