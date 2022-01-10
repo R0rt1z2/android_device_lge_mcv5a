@@ -22,11 +22,11 @@ PRODUCT_PACKAGES += \
     update_engine_sideload \
     update_engine_client
 
-# A/B Boot Control HAL
+# Boot Control
 PRODUCT_PACKAGES += \
-    bootctrl.mt6755 \
-    bootctl
+    bootctl \
+    android.hardware.boot@1.1-mtkimpl.recovery
 
-# A/B Static Boot Control HAL
-PRODUCT_STATIC_BOOT_CONTROL_HAL := \
-    bootctrl.mt6755
+# Debug
+PRODUCT_PACKAGES_DEBUG += \
+    bootctl
