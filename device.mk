@@ -4,7 +4,9 @@ LOCAL_PATH := device/lge/mcv5a
 AB_OTA_PARTITIONS += \
     boot \
     system \
-    vendor
+    vendor \
+    odmdtbo \
+    oem
 
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
